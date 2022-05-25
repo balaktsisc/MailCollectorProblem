@@ -1,0 +1,100 @@
+ --- OK.
+ Match tree built with 228 nodes.
+
+PDDL problem description loaded: 
+	Domain: MAILCOLLECTORDOMAIN
+	Problem: MAILCOLPROB_2
+	#Actions: 228
+	#Fluents: 125
+Landmarks found: 40
+Starting search with IW (time budget is 60 secs)...
+rel_plan size: 15
+#RP_fluents 25
+Caption
+{#goals, #UNnachieved,  #Achieved} -> IW(max_w)
+
+{40/40/0}:IW(1) -> rel_plan size: 15
+#RP_fluents 25
+{40/20/20}:IW(1) -> [2]rel_plan size: 15
+#RP_fluents 24
+{40/19/21}:IW(1) -> [2]rel_plan size: 14
+#RP_fluents 23
+{40/18/22}:IW(1) -> [2][3][4]rel_plan size: 15
+#RP_fluents 23
+{40/17/23}:IW(1) -> [2][3]rel_plan size: 15
+#RP_fluents 22
+{40/16/24}:IW(1) -> [2][3]rel_plan size: 13
+#RP_fluents 19
+{40/15/25}:IW(1) -> [2]rel_plan size: 13
+#RP_fluents 18
+{40/14/26}:IW(1) -> [2][3]rel_plan size: 12
+#RP_fluents 17
+{40/13/27}:IW(1) -> [2]rel_plan size: 11
+#RP_fluents 16
+{40/12/28}:IW(1) -> [2]rel_plan size: 10
+#RP_fluents 15
+{40/11/29}:IW(1) -> [2]rel_plan size: 9
+#RP_fluents 14
+{40/10/30}:IW(1) -> [2][3]rel_plan size: 9
+#RP_fluents 13
+{40/9/31}:IW(1) -> [2]rel_plan size: 9
+#RP_fluents 12
+{40/8/32}:IW(1) -> [2][3]rel_plan size: 7
+#RP_fluents 10
+{40/7/33}:IW(1) -> [2]rel_plan size: 6
+#RP_fluents 9
+{40/6/34}:IW(1) -> [2][3]rel_plan size: 7
+#RP_fluents 9
+{40/5/35}:IW(1) -> [2][3][4]rel_plan size: 4
+#RP_fluents 6
+{40/4/36}:IW(1) -> [2][3][4][5][6]rel_plan size: 4
+#RP_fluents 5
+{40/3/37}:IW(1) -> [2]rel_plan size: 4
+#RP_fluents 4
+{40/2/38}:IW(1) -> [2][3][4]rel_plan size: 1
+#RP_fluents 1
+{40/1/39}:IW(1) -> [2]rel_plan size: 0
+#RP_fluents 0Plan found with cost: 3.55422e+24
+Total time: 0.044
+Nodes generated during search: 548
+Nodes expanded during search: 204
+IW search completed
+
+
+ --- Steps ---
+(load person1 m8 p14)
+(depose person1 m8 p14 b3)
+(move person1 p14 p13)
+(move person1 p13 p8)
+(load person1 m4 p8)
+(transfer person1 p8 p6 l1)
+(load person1 m6 p6)
+(transfer person1 p6 p2 l1)
+(load person1 m10 p2)
+(load person1 m5 p2)
+(transfer person1 p2 p3 l1)
+(depose person1 m4 p3 b1)
+(depose person1 m5 p3 b1)
+(depose person1 m6 p3 b1)
+(depose person1 m10 p3 b1)
+(move person1 p3 p4)
+(load person1 m3 p4)
+(load person1 m2 p4)
+(move person1 p4 p3)
+(depose person1 m2 p3 b1)
+(depose person1 m3 p3 b1)
+(transfer person1 p3 p7 l1)
+(load person1 m9 p7)
+(transfer person1 p7 p8 l1)
+(move person1 p8 p13)
+(depose person1 m9 p13 b2)
+(move person1 p13 p8)
+(transfer person1 p8 p6 l1)
+(transfer person1 p6 p2 l1)
+(move person1 p2 p1)
+(load person1 m7 p1)
+(load person1 m1 p1)
+(move person1 p1 p2)
+(transfer person1 p2 p3 l1)
+(depose person1 m1 p3 b1)
+(depose person1 m7 p3 b1)
